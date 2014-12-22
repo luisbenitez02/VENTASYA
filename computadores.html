@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+    <meta name="description" content="Pagina de VENTASYA creada para el curso de Diseño web de la UNAD">
+    <meta name="author" content="Luis Benitez">
+    <meta name="keywords" content="HTML,HTML5,CSS,javascrit,CSS3, VENTASYA,tienda,Unad"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive Desing-->
+  
+  <title>VENTASYA - Computadores</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/estilo.css">
+  <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script><!--jQuery-->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+<!--============================================navbar======================================================-->
+<div class="wrapper">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <!-- El logotipo y el icono que despliega el menú se agrupan
+       para mostrarlos mejor en los dispositivos móviles -->
+  <div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Desplegar navegación</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png" alt="Logo VentasYa"><h4 id="escrito" class="miestilo">VentasYa</h4></a>
+  </div>
+  <!-- Agrupa los enlaces de navegación, los formularios y cualquierotro elemento que se pueda ocultar al minimizar la barra -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse miestilo">
+    <ul class="nav navbar-nav">
+     <li class="dropdown active">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="blue">
+          Tienda<b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="divider"></li>
+            <li><a href="smartphones.html">SmartPhones</a></li>
+          <li class="divider"></li>
+          <li><a href="tvyvideo.html">Tv y Video</a></li>
+          <li class="active"><a href="computadores.html">Computadoras</a></li>
+        </ul>
+      </li>
+      <li><a href="conocenos.html" id="blue">Conocemos</a></li>
+      <li><a href="contacto.html" id="blue">Contacto</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <a class="navbar-brand agrega" href="#"><img id="cesta" src="img/cesta.png" alt="Cesta"><span class="badge">0</span></a>
+    </ul>
+  </div>
+</nav>
+<!--=======================================================================================================-->
+<br>
+<div class="row" id="mirejilla">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/commerce/asusnot.jpg" alt="ASUS Gris">
+      <div class="caption">
+        <h3>Notebook ASUS K550DP Gris</h3>
+        <p>Procesador  AMD 5750M A10<br>
+        Sistema Operativo  Windows 8<br>
+        <b>Memoria RAM  8GB</b><br>
+        Disco Duro 1T<br>
+        Pantalla:  15,6"<br>
+        <h3><b>$1'519.000</b></h3></p>
+        <p><a href="#" class="btn btn-primary compra" role="button" data-toggle="modal" data-target="#myModal">Comprar</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal2">Detalles</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail" id="resalt">
+      <img src="img/commerce/samsungnet.png" alt="Computadora Samsung Series 9">
+      <div class="caption">
+        <h3>Ultrabook Samsung Series 9</h3>
+        <p>pantalla de 13.3"<br>
+        Diseño Asombrosamente delgado<br>
+        Procesador Intel i5 1.7GHz<br>
+        Memoria RAM DDR3 4GB<br>
+        Windows 8.1<br>
+        <h3><b>$1'399.900</b></h3></p>
+        <p><a href="#" class="btn btn-primary compra" role="button" data-toggle="modal" data-target="#myModal">Comprar</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal2">Detalles</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/commerce/lenovomin.png" alt="Lenovo all in one">
+      <div class="caption">
+        <h3>Lenovo All-in-One</h3>
+        <p>Procesador: Intel® Celeron®<br>
+        Sistema Operativo: Windows 8.1<br>
+        Memoria RAM 4GB<br>
+        Disco Duro 500GB<br>
+        <b>Pantalla: 19.5" LED TOUCH</b>
+        <h3><b>$1'050.000</b></h3></p>
+        <p><a href="#" class="btn btn-primary compra" role="button" data-toggle="modal" data-target="#myModal">Comprar</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal2">Detalles</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/commerce/galaxytab4min.png" alt="Galaxy Tab S 10.5">
+      <div class="caption">
+        <h3>Galaxy Tab S 10.5"</h3>
+        <p>Pantalla Supero AMOLED 10.5"<br>
+        Memoria RAM 3GB<br>
+        16GB de Almacenamiento interno<br>
+        Sistema Operativo Android 4.4<br>
+        <b>Lector de huellas</b><br>
+        <h3><b>$850.000</b></h3></p>
+        <p><a href="#" class="btn btn-primary compra" role="button" data-toggle="modal" data-target="#myModal">Comprar</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal2">Detalles</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/commerce/asus2en1.jpg" alt="Asus 2 en 1">
+      <div class="caption">
+        <h3>ASUS 2 en 1</h3>
+        <p>Procesador Intel Quad Core 1,33MHz<br>
+        Sistema Operativo Windows 8.1 <br>
+        Memoria 2GB + Intel HD Graphics 4400<br>
+        Disco Duro 32GB SSD + 500GB HDD<br>
+        Pantalla:  10.1" MultiTouch<br>
+        <h3><b>$849.000</b></h3></p>
+        <p><a href="#" class="btn btn-primary compra" role="button" data-toggle="modal" data-target="#myModal">Comprar</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal2">Detalles</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/commerce/yoga.jpg" alt="Lenovo yoga">
+      <div class="caption">
+        <h3>Tablet Lenovo Yoga 8</h3>
+        <p>Procesador MTK 1.2GHZ<br>
+        Sistema Operativo Android 4.4<br>
+        Memoria RAM 1GB<br>
+        Pantalla: 8" HD IPS<br>
+        Soporte multimodo
+        <h3><b>$399.000</b></h3></p>
+        <p><a href="#" class="btn btn-primary compra" role="button" data-toggle="modal" data-target="#myModal">Comprar</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal2">Detalles</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--=========================================modal=========================================================-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">¡Producto Agregado al carrito!</h4>
+      </div>
+      <div class="modal-body">
+        Puedes continuar en la tienda o ir directo a la pasarela de pago
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default agrega">Pagar</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Seguir en la tienda</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Second Modal-->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Pagina en Construccion</h4>
+      </div>
+      <div class="modal-body">
+        <p class="text-center"><img src="img/cons.png" alt="En construccion"></p>
+       <p class="text-center">Aun no tenemos lista esta pagina, lo sentimos :(</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Continuar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--============================================Footer=====================================================-->
+<footer>
+  <p id="data-one" class="text-left"><b>hola@ventasya.vv.si</b></p>
+  <p id="data-two"><b>Curso de Diseño Web UNAD, Luis Benitez</b></p>
+</footer>
+</body>
+</html>

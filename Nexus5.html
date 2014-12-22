@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+		<meta name="description" content="Pagina de VENTASYA creada para el curso de Diseño web de la UNAD">
+		<meta name="author" content="Luis Benitez">
+		<meta name="keywords" content="HTML,HTML5,CSS,javascrit,CSS3, VENTASYA,tienda,Unad"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive Desing-->
+	
+	<title>Nexus 5 - VentasYa</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script><!--jQuery-->
+	<script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+<!--============================================navbar======================================================-->
+<div class="wrapper">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <!-- El logotipo y el icono que despliega el menú se agrupan
+       para mostrarlos mejor en los dispositivos móviles -->
+  <div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Desplegar navegación</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png" alt="Logo VentasYa"><h4 id="escrito" class="miestilo">VentasYa</h4></a>
+  </div>
+  <!-- Agrupa los enlaces de navegación, los formularios y cualquierotro elemento que se pueda ocultar al minimizar la barra -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse miestilo">
+    <ul class="nav navbar-nav">
+     <li class="dropdown active">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="blue">
+          Tienda<b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="divider"></li>
+            <li class="active"><a href="smartphones.html">SmartPhones</a></li>
+          <li class="divider"></li>
+          <li><a href="tvyvideo.html">Tv y Video</a></li>
+          <li><a href="computadores.html">Computadoras</a></li>
+        </ul>
+      </li>
+      <li><a href="conocenos.html" id="blue">Conocemos</a></li>
+      <li><a href="contacto.html" id="blue">Contacto</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <a class="navbar-brand agrega" href="#"><img id="cesta" src="img/cesta.png" alt="Cesta"><span class="badge">0</span></a>
+    </ul>
+  </div>
+</nav>
+<!--=======================================================================================================-->
+ <div class="row" id="mirejilla">
+    <div class="col-md-6">
+      <h3 class="miestilo">Google Nexus 5</h3>
+      <a href="" data-toggle="modal" data-target="#myModal6"><img src="img/detalle/n5full.png" alt="Nexus 5 full" class="img-thumbnail"></a>
+      <br><br>
+      <a href="" data-toggle="modal" data-target="#myModal3"><img src="img/detalle/n5trasmin.jpg" alt="..." class="img-rounded"></a>
+      <a href="" data-toggle="modal" data-target="#myModal4"><img src="img/detalle/n5variosmin.jpg" alt="..." class="img-rounded one" ></a>
+      <a href="" data-toggle="modal" data-target="#myModal5"><img src="img/detalle/nmanomin.jpg" alt="..." class="img-rounded one"></a>
+    </div>
+    <br>
+  <div class="col-md-6">
+    <h4 id="linea"><b>Precio: $800.000</b></h4>
+    <a href="#" class="btn btn-primary compra" role="button" data-toggle="modal" data-target="#myModal">Comprar</a>
+    <br><br>
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title juanpi">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Caracteristicas Basicas
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        El Google Nexus 5 es el nuevo smartphone Nexus de Google fabricado por LG. Posee una pantalla 1080p de 4.95 pulgadas con protección Gorilla Glass 3, cámara de 8 megapixels trasera con estabilización óptica de imagen, cámara frontal de 1.3 megapixels, procesador quad-core Snapdragon 800, 2GB de RAM, 16GB o 32GB de almacenamiento interno y corre la nueva versión de Android, 5.0 Lollipop.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title juanpi">
+        <a class="collapsed total" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" title="Click para expandir">
+          Especificaciones
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+        <div class="list-group">
+  <a href="#" class="list-group-item">
+    <h4 class="list-group-item-heading">General</h4>
+    <p class="list-group-item-text">
+      <li>Redes: GSM 850 / 900 / 1800 / 1900 - HSDPA 850 / 900 / 1900 / 2100 - LTE 1 / 3 / 5 / 7 / 8 / 20 </li>
+      <li>Dimensiones   137.9 x 69.2 x 8.6 mm</li>
+      <li>Peso 130 g</li>
+    </p>
+  </a>
+  <a href="#" class="list-group-item">
+    <h4 class="list-group-item-heading">Pantalla</h4>
+    <p class="list-group-item-text">
+     <li>Tipo LCD True HD-IPS touchscreen capacitivo, 16M colores</li>
+    <li>Tamaño  1080 x 1920 pixels, 4.95 pulgadas</li>
+    <li>Pantalla Gorilla Glass 3</li>
+    <li>Soporte multitouch</li>
+    <li>Sensor acelerómetro para auto rotación</li>
+    <li>Sensor de proximidad para auto apagado</li>
+    <li>Sensor giroscópico</li>
+    <li>Sensor barométrico</li>
+    </p>
+  </a>
+  <a href="#" class="list-group-item">
+    <h4 class="list-group-item-heading">S.O y Multimedia</h4>
+    <p class="list-group-item-text">
+     <li>Sistema Operativo Android OS, v5.0 lollipop</li>
+    <li>Camara de 8MP con Flash LED, autofocus</li>
+    <li>Carga inalambrica</li>
+    <li>NFC / Wifi/ Bluetooth</li>
+    <li>GPS con soporte A-GPS y GLONASS</li>
+    <li>Procesador quad-core Qualcomm Snapdragon 800 2.26 GHz, GPU Adreno 330</li>
+    <li>16GB memoria interna, 2GB RAM</li>
+    <li>Comandos por voz</li>
+    </p>
+  </a>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+
+<div class="push"></div>
+</div>
+<!--===========================================Modals=================================================-->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Parte Trasera nexus 5</h4>
+      </div>
+      <div class="modal-body">
+        <p class="text-center"><img src="img/detalle/n5tras.jpg" alt="nexus 5"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Continuar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--//////////////////////////-->
+<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Colores Nexus 5</h4>
+      </div>
+      <div class="modal-body">
+        <p class="text-center"><img src="img/detalle/n5varios.jpg" alt="nexus 5"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Continuar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--//////////////////////////-->
+<div class="modal fade" id="myModal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Nexus 5</h4>
+      </div>
+      <div class="modal-body">
+        <p class="text-center"><img src="img/detalle/nmano.jpg" alt="nexus 5"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Continuar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--//////////////////////////-->
+<div class="modal fade" id="myModal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Nexus 5</h4>
+      </div>
+      <div class="modal-body">
+        <p class="text-center"><img src="img/detalle/n5full.png" alt="nexus 5"></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Continuar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--//////////////////////////-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">¡Producto Agregado al carrito!</h4>
+      </div>
+      <div class="modal-body">
+        Puedes continuar en la tienda o ir directo a la pasarela de pago
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default agrega">Pagar</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Seguir en la tienda</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--============================================Footer===========================================-->
+<footer>
+	<p id="data-one" class="text-left"><b>hola@ventasya.vv.si</b></p>
+	<p id="data-two"><b>Curso de Diseño Web UNAD, Luis Benitez</b></p>
+</footer>
+</body>
+</html>

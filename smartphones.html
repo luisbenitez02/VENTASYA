@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+		<meta name="description" content="Pagina de VENTASYA creada para el curso de Diseño web de la UNAD">
+		<meta name="author" content="Luis Benitez">
+		<meta name="keywords" content="HTML,HTML5,CSS,javascrit,CSS3, VENTASYA,tienda,Unad"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Responsive Desing-->
+	
+	<title>VENTASYA - Smartphones</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<script src="http://code.jquery.com/jquery-2.0.3.min.js"></script><!--jQuery-->
+	<script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+<!--============================================navbar======================================================-->
+<div class="wrapper">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <!-- El logotipo y el icono que despliega el menú se agrupan
+       para mostrarlos mejor en los dispositivos móviles -->
+  <div class="navbar-header">
+  <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Desplegar navegación</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png" alt="Logo VentasYa"><h4 id="escrito" class="miestilo">VentasYa</h4></a>
+  </div>
+  <!-- Agrupa los enlaces de navegación, los formularios y cualquierotro elemento que se pueda ocultar al minimizar la barra -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse miestilo">
+    <ul class="nav navbar-nav">
+     <li class="dropdown active">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="blue">
+          Tienda<b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li class="divider"></li>
+            <li class="active"><a href="smartphones.html">SmartPhones</a></li>
+          <li class="divider"></li>
+          <li><a href="tvyvideo.html">Tv y Video</a></li>
+          <li><a href="computadores.html">Computadoras</a></li>
+        </ul>
+      </li>
+      <li><a href="conocenos.html" id="blue">Conocemos</a></li>
+      <li><a href="contacto.html" id="blue">Contacto</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <a class="navbar-brand agrega" href="#"><img id="cesta" src="img/cesta.png" alt="Cesta"><span class="badge">0</span></a>
+    </ul>
+  </div>
+</nav>
+<!--=======================================================================================================-->
+<br>
+<div class="row" id="mirejilla">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/commerce/s5min.jpg" alt="Galaxy S5">
+      <div class="caption">
+        <h3>Samsung Galaxy S5</h3>
+        <p>Pantalla 5.1" <br>
+        Camara 16MP Flash LED <br>
+        Procesador Qualcomm Snapdragon 801 quad-core 2.5 GHz <br>
+        <b>Sensor de ritmo cardiaco</b> <br>
+        Android 4.4 Kit-kat <br>
+        <h3><b>$1'600.000</b></h3></p>
+        <p><a href="#" class="btn btn-primary compra" role="button" data-toggle="modal" data-target="#myModal">Comprar</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal2">Detalles</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail" id="resalt">
+      <img src="img/commerce/nexus5.png" alt="Nexus 5">
+      <div class="caption">
+        <h3>Google Nexus 5</h3>
+        <p>Pantalla de 5"<br>
+        Camara de 8.0MP Flash LED <br>
+        Procesador Quad-core Qualcomm Snapdragon 800
+        <b>2.26 GHz</b> <br>
+        2GB RAM, 16GB almacenamiento interno<br>
+        <b>Android 5.0 Lollipop</b><br>
+        <h3><b>$800.000</b></h3></p>
+        <p><a href="#" class="btn btn-primary compra" role="button" data-toggle="modal" data-target="#myModal">Comprar</a> 
+        <a href="Nexus5.html" class="btn btn-default" role="button">Detalles</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/commerce/motogmin.png" alt="Moto g 2014">
+      <div class="caption">
+        <h3>Motorola Moto G 2Gen</h3>
+        <p>Pantalla de 5" <br>
+        Camara de 8.0MP Flash LED<br>
+        16GB Almacenamiento Interno/ Soporte SD <br>
+        <b>Dos carcasas (lima y turquesa)</b><br>
+        Android 4.4 kit-Kat
+        <h3><b>$399.900</b></h3></p>
+        <p><a href="#" class="btn btn-primary compra" role="button" data-toggle="modal" data-target="#myModal">Comprar</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal2">Detalles</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/commerce/lumia635.jpeg" alt="Lumia 635">
+      <div class="caption">
+        <h3>Lumia 635</h3>
+        <p>Pantalla de 4.5" <br>
+        Camara de 5MP <br>
+        512MB de RAM / Soporte SD<br>
+        <b>Almacenamiento Gratis en OneDrive 15GB</b><br>
+        Windows Phone 8.1 <br>
+        <h3><b>$370.000</b></h3></p>
+        <p><a href="#" class="btn btn-primary compra" role="button" data-toggle="modal" data-target="#myModal">Comprar</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal2">Detalles</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/commerce/idolmini.jpg" alt="idol mini">
+      <div class="caption">
+        <h3>Alcatel idol mini</h3>
+        <p>Pantalla de 4.3" <br>
+        Camara de 5.0MP con Flash LED<br>
+        CPU Dual core 1.7GHz <br>
+        512MB de RAM / Soporte SD <br>
+        Android 4.2 Jelly Bean <br>
+        <h3><b>$376.000</b></h3></p>
+        <p><a href="#" class="btn btn-primary compra" role="button" data-toggle="modal" data-target="#myModal">Comprar</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal2">Detalles</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="img/commerce/xperia.jpg" alt="Xperia E1">
+      <div class="caption">
+        <h3>Sony Xperia E1</h3>
+        <p>Pantalla de 4" <br>
+        Camara 3.15MP <br>
+        memoria interna de 4GB <br>
+        512MB RAM <br>
+        Android 4.2 Jelly Bean
+        <h3><b>$260.000</b></h3></p>
+        <p><a href="#" class="btn btn-primary compra" role="button" data-toggle="modal" data-target="#myModal">Comprar</a> <a href="#" class="btn btn-default" role="button" data-toggle="modal" data-target="#myModal2">Detalles</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--=========================================modal=========================================================-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">¡Producto Agregado al carrito!</h4>
+      </div>
+      <div class="modal-body">
+        Puedes continuar en la tienda o ir directo a la pasarela de pago
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default agrega">Pagar</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Seguir en la tienda</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Second Modal-->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="myModalLabel">Pagina en Construccion</h4>
+      </div>
+      <div class="modal-body">
+        <p class="text-center"><img src="img/cons.png" alt="En construccion"></p>
+       <p class="text-center">Aun no tenemos lista esta pagina, lo sentimos :(</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Continuar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--============================================Footer=====================================================-->
+<footer>
+	<p id="data-one" class="text-left"><b>hola@ventasya.vv.si</b></p>
+	<p id="data-two"><b>Curso de Diseño Web UNAD, Luis Benitez</b></p>
+</footer>
+</body>
+</html>
